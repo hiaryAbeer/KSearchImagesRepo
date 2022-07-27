@@ -1,11 +1,11 @@
 package com.abeerapps.ishowimagesapp
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.NavHostFragment
 import dagger.hilt.android.AndroidEntryPoint
 
-const val ACCESS_KEY = "Eu8uR5s4lTHibnAsVFaMdg77XCEWwahDOKIftc4PaGA"
+const val UNSPLASH_WEBSITE_ACCESS_KEY = "Eu8uR5s4lTHibnAsVFaMdg77XCEWwahDOKIftc4PaGA"
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
