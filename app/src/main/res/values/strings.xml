@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IShowImagesApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="penguinin">PenguinIN</string>
+    <string name="please_type_something_to_search">Please type something to search</string>
+    <string name="search">Search..</string>
+</resources>

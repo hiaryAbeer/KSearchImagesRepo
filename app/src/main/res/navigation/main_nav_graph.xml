@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/searchImagesFragment">
+
+    <fragment
+        android:id="@+id/searchImagesFragment"
+        android:name="com.abeerapps.ishowimagesapp.images.ui.SearchImagesFragment"
+        android:label="fragment_search_images"
+        tools:layout="@layout/fragment_search_images" >
+        <action
+            android:id="@+id/action_searchImagesFragment_to_searchListFragment"
+            app:destination="@id/searchListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchListFragment"
+        android:name="com.abeerapps.ishowimagesapp.images.ui.SearchListFragment"
+        tools:layout="@layout/fragment_search_list" />
+</navigation>
